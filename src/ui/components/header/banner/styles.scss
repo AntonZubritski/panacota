@@ -1,0 +1,40 @@
+.banner {
+  position: absolute;
+  top: 30%;
+  width: 1026px;
+  padding: 0 253px;
+  &__text {
+    text-align: left;
+    font-family: Forum;
+    font-size: 75px;
+    line-height: 88px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+  &__average-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+  &__button {
+    width: max-content;
+    height: 76px;
+    padding: 0 30px;
+    border: 2px solid #ff5ab3;
+    border-radius: 50px;
+    & div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: inherit;
+      font-family: Forum;
+      font-size: 62px;
+      letter-spacing: 0.04em;
+      color: #ff5ab3;
+    }
+  }
+}

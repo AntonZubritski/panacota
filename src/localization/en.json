@@ -1,0 +1,13 @@
+{
+  "navButtons": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "ourClients": "Our Clients",
+    "Contacts": "Contacts"
+  },
+  "banner": {
+    "text": "We are a communications agency providing strategic value",
+    "average": "through",
+    "button": "creation"
+  }
+}
