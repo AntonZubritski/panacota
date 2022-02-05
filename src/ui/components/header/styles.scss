@@ -1,3 +1,5 @@
+@import '../../../theme/variables.scss';
+
 .header {
   position: relative;
   height: 757px;
@@ -13,7 +15,7 @@
     background: url(../../backgrounds/header.png);
   }
   &__background-color {
-    background: #c51942;
+    background: $crimson;
   }
   &__bar {
     display: flex;

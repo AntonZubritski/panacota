@@ -1,4 +1,10 @@
+import ServicesBlock from './servicesBlock';
+
 const Body = () => {
-  return <div>Body</div>;
+  return (
+    <div>
+      <ServicesBlock />
+    </div>
+  );
 };
 export default Body;

@@ -1,0 +1,58 @@
+@import './variables.scss';
+@import './breakpoints.scss';
+
+@mixin default-font-size-footer {
+  @include style-map(font-size, $footerFontSize);
+}
+
+@mixin default-title-onboarding {
+  @include style-map(font-size, $titleOnboardingFontSize);
+}
+
+@mixin default-info-title-onboarding {
+  @include style-map(font-size, $infoTitleOnboardingFontSize);
+}
+
+@mixin default-info-descr-onboarding {
+  @include style-map(font-size, $infoDescrOnboardingFontSize);
+}
+
+// breakpoint mixin
+@mixin breakpoint($mq01, $mq2: false,) {
+  @if $mq2 == false {
+    @media ($mq01) {
+      @content;
+    }
+  } @else {
+    @media (min-width: $mq01) and (max-width: $mq2) {
+      @content;
+    }
+  }
+}
+
+// responsive style mixin
+@mixin style-map($property, $style-map) {
+  @each $breakpoint, $style in $style-map {
+    @if $breakpoint == null {
+      #{$property}: $style;
+    } @else {
+      @include breakpoint($breakpoint) {
+        #{$property}: $style !important;
+      }
+    }
+  }
+}
+
+//animation mixin
+@mixin fadeAnimMixin($speed, $type) {
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  animation: #{$speed} #{$type} fade;
+}
+

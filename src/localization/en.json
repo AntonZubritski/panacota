@@ -1,4 +1,8 @@
 {
+  "logo": {
+    "lineFirst": "PanaKota",
+    "lineSecond": "creative"
+  },
   "navButtons": {
     "services": "Services",
     "portfolio": "Portfolio",
@@ -9,5 +13,33 @@
     "text": "We are a communications agency providing strategic value",
     "average": "through",
     "button": "creation"
+  },
+  "buttons": {
+    "portfolio": "View portfolio"
+  },
+  "services": {
+    "title": "Services",
+    "links": [
+      {
+        "title": "Social networks",
+        "description": "Design of social networks, content, strategy, visual support"
+      },
+      {
+        "title": "Photos",
+        "description": "Design of social networks, content, strategy, visual support"
+      },
+      {
+        "title": "Video",
+        "description": "Design of social networks, content, strategy, visual support"
+      },
+      {
+        "title": "Grapic design",
+        "description": "Design of social networks, content, strategy, visual support"
+      },
+      {
+        "title": "Website development",
+        "description": "Design of social networks, content, strategy, visual support"
+      }
+    ]
   }
 }
