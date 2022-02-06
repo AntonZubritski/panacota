@@ -1,4 +1,5 @@
 import Banner from './banner';
+import Logo from './logo';
 import NavMenu from './nav';
 import './styles.scss';
 
@@ -8,7 +9,7 @@ const Header = () => {
       <div className="header__background-color" />
       <div className="header__background-mask" />
       <div className="header__bar">
-        LOGO
+        <Logo />
         <NavMenu />
       </div>
       <Banner />

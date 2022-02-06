@@ -1,28 +1,44 @@
+@import '../../../../theme/variables.scss';
+
 .banner {
   position: absolute;
-  top: 30%;
-  width: 1026px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  top: 0;
   padding: 0 253px;
+  pointer-events: none;
   &__text {
     text-align: left;
     font-family: Forum;
     font-size: 75px;
     line-height: 88px;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: $white;
   }
   &__average-button {
+    position: relative;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
     flex-wrap: nowrap;
-    gap: 30px;
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      align-items: baseline;
+    }
+  }
+  &__button-portfolio {
+    display: flex;
+    justify-content: flex-end;
+    margin: -40px 65px 0 0;
   }
   &__button {
     width: max-content;
     height: 76px;
     padding: 0 30px;
-    border: 2px solid #ff5ab3;
+    border: 2px solid $pink;
     border-radius: 50px;
     & div {
       display: flex;
@@ -34,7 +50,7 @@
       font-family: Forum;
       font-size: 62px;
       letter-spacing: 0.04em;
-      color: #ff5ab3;
+      color: $pink;
     }
   }
 }

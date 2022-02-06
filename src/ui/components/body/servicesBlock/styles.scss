@@ -1,0 +1,90 @@
+@import '../../../../theme/variables.scss';
+
+.services {
+  height: 1322px;
+  background-color: $darkPurple;
+  padding: 104px 140px 110px 140px;
+
+  &__video-block {
+    display: flex;
+  }
+  &__information {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 80px 100px;
+    color: $white;
+
+    &-title {
+      display: flex;
+      width: 75%;
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 64px;
+      line-height: 68px;
+      letter-spacing: 0.04em;
+    }
+    &-links {
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+
+      .link-element {
+        display: flex;
+        cursor: pointer;
+        flex-direction: column;
+        align-items: flex-start;
+        cursor: pointer;
+
+        &__title.closed {
+          color: $crimsonText;
+        }
+
+        &__title {
+          display: flex;
+          position: relative;
+          gap: 8px;
+
+          font-family: $primaryFontRaleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 30px;
+          line-height: 36px;
+
+          &-icon {
+            position: absolute;
+            transition: 200ms ease;
+            margin-left: 10px;
+            right: -35px;
+            top: -15px;
+          }
+          &-icon.open {
+            transform: rotate(-30deg) scale(1.5);
+          }
+        }
+        &__descr {
+          display: flex;
+          text-align: left;
+          transition: 300ms ease;
+
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 32px;
+          /* or 178% */
+        }
+        &__descr.closed {
+          height: 0px;
+          opacity: 0;
+        }
+        &__descr.open {
+          height: max-content;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

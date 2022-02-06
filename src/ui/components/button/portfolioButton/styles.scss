@@ -1,0 +1,24 @@
+@import '../../../../theme/variables.scss';
+
+.prtfolio-button {
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 118px;
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  background-color: $purple;
+
+  &__text {
+    font-size: 18px;
+    font-family: $primaryFontRaleway;
+    line-height: 114%;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 1px;
+    transform: rotate(-17.5deg);
+  }
+}
