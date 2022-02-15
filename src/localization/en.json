@@ -1,7 +1,7 @@
 {
   "logo": {
     "lineFirst": "PanaKota",
-    "lineSecond": "creative"
+    "lineSecond": "creatives"
   },
   "navButtons": {
     "services": "Services",
@@ -39,6 +39,30 @@
       {
         "title": "Website development",
         "description": "Design of social networks, content, strategy, visual support"
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "button": "More works",
+    "tabs": [
+      {
+        "title": "Photos"
+      },
+      {
+        "title": "All works" 
+      },
+      {
+        "title": "Social networks"
+      },
+      {
+        "title": "Video"
+      },
+      {
+        "title": "Grapic design"
+      },
+      {
+        "title": "Website development"
       }
     ]
   }

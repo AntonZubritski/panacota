@@ -1,7 +1,7 @@
 {
   "logo": {
     "lineFirst": "PanaKota",
-    "lineSecond": "creative"
+    "lineSecond": "creatives"
   },
   "navButtons": {
     "services": "Услуги",
@@ -39,6 +39,30 @@
       {
         "title": "Создание сайтов",
         "description": "Оформление социальныйх сетей, контент, стратегия, визуальное сопровождение"
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "button": "Больше работ",
+    "tabs": [
+      {
+        "title": "Фотографии"
+      },
+      {
+        "title": "Все работы"
+      },
+      {
+        "title": "Социальные сети"
+      },
+      {
+        "title": "Видео"
+      },
+      {
+        "title": "Графический дизайн"
+      },
+      {
+        "title": "Создание сайтов"
       }
     ]
   }
