@@ -1,6 +1,7 @@
 @import './breakpoints.scss';
 
-$primaryFontRaleway: "RalewayPrime", serif;
+$primaryFontRaleway: 'RalewayPrime', serif;
+$primaryFontForum: 'ForumPrime', serif;
 // $primaryFontInterMedium: 'Inter Medium', serif;
 // $primaryFontWalsheimBold: 'GT Walsheim Pro Bold', serif;
 // $primaryFontWalsheimRegular: 'GT Walsheim Pro Regular', serif;
@@ -8,11 +9,14 @@ $primaryFontRaleway: "RalewayPrime", serif;
 
 $blue: #2086fb;
 $purple: #8b72fb;
+$grape: #1e1a2f;
+$grapeText: #58507a;
 $darkPurple: #161323;
 $crimson: #c51942;
 $crimsonText: #af1f42;
 $pink: #ff5ab3;
 $white: #ffffff;
+$gray: #f0f0f0;
 
 // $footerFontSize: (
 //   $isLarge: 16px,

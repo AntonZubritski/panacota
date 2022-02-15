@@ -1,0 +1,27 @@
+@import '../../../../../theme/variables.scss';
+
+.tabs-portfolio {
+  display: flex;
+  margin: 32px 0 58px;
+  gap: 24px;
+  & .tab {
+    display: flex;
+    align-items: center;
+    color: $grapeText;
+    border-radius: 60px;
+    background-color: $gray;
+    width: max-content;
+    padding: 16px 29px;
+    font-family: $primaryFontRaleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    cursor: pointer;
+    transition: 150ms ease;
+  }
+  & .tab.active {
+    color: $white;
+    background-color: $grape;
+  }
+}

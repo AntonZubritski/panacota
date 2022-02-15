@@ -1,0 +1,16 @@
+@import '../../../../theme/variables.scss';
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  margin: 104px 140px 109px 140px;
+
+  &__title {
+    font-family: $primaryFontForum;
+    font-size: 75px;
+    line-height: 88px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+  }
+}
